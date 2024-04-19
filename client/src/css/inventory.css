@@ -1,0 +1,64 @@
+ tbody, tr, td{
+    /* border: 1px solid gray; */
+    border-bottom: 1px solid lightgray;
+    border-collapse: collapse;
+    /* color: gray; */
+}
+
+tr{
+    cursor: pointer;
+}
+
+tr:hover{
+    background-color: rgb(249, 249, 249);
+}
+
+tbody{
+    box-shadow: 0px 5px 5px 0px rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+thead, th{
+    background-color: rgb(247, 247, 247);
+    color: gray;
+    font-weight: 600;
+}
+
+.inventory{
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+
+
+th, td{
+    padding: 15px;
+    text-align: left;
+}
+
+.sell{
+    /* border: 1px solid black; */
+    padding: 0;
+}
+
+.sell p{
+    border: 1px solid green;
+
+    width: max-content;
+    /* height: ; */
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sell p:hover{
+    background-color: green;
+    color: white;
+}

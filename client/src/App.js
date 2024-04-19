@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Components/Sidebar';
+import Home from './Components/Home';
+import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom'; // Import Outlet
+
+import Dashboard from './Components/Dashboard';
+import Inventory from './Components/Inventory';
+import Sales from './Components/Sales';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<Dashboard />} /> {/* Use index for the default child route */}
+          <Route path="inventory" element={<Inventory />} />
+          <Route path="sales" element={<Sales />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

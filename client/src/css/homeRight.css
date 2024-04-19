@@ -1,0 +1,87 @@
+.home{
+    display: flex;
+}
+
+.hmRgt{
+    /* border: 1px solid black; */
+    width: 88%;
+    background-color: rgb(247, 247, 247);
+}
+
+.navbar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    /* background-color: rgb(232, 232, 232); */
+    box-shadow: 0px 5px 5px 0px rgb(228, 228, 228);
+}
+
+.navLoc{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.nvComp{
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    gap: 10px;
+}
+
+.nvComp p{
+    color: gray;
+}
+
+.navLoc p{
+    font-weight: 600;
+    /* margin-left: -100px; */
+}
+
+.nvcImg{
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.dsa{
+    animation: dashAni 0.5s ease-in-out;
+}
+
+.dsa2{
+    margin-left: -100px;
+    opacity: 0;
+}
+
+@keyframes dashAni {
+    0%{
+        margin-left: -100px;
+        opacity: 0;
+    }
+    50%{
+        margin-left: -100px;
+        opacity: 1;
+    }
+    80%{
+        margin-left: 15px;
+        opacity: 1;
+    }
+    90%{
+        margin-left: -10px;
+        opacity: 1;
+    }
+    100%{
+        margin-left: 0;
+        opacity: 1;
+    }
+    
+}

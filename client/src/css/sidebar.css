@@ -1,0 +1,117 @@
+.sidebar{
+    /* border: 1px solid black; */
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 100vh;
+}
+
+.logoName{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* padding: 0px 10px; */
+    padding: 28px;
+}
+
+.logoName .logo{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+
+.logoName p{
+    /* border: 1px solid black; */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sd{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sd a{
+    /* font-weight: 600; */
+    color: black;
+    text-decoration: none;
+}
+
+.sdCompMain{
+    /* border: 1px solid black; */
+    /* border: none; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    /* background-color: red; */
+    position: relative;
+    cursor: pointer;
+
+}
+
+.sdd{
+    background-color: #01c8ff;
+    width: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    height: 40px;
+
+}
+
+.sdCompMain .sdComp{
+    /* border: 1px solid black; */
+    width: 80%;
+    /* height: ; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0px 20px;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid #caf4ff;
+    box-shadow: 0px 5px 5px 0px #f1fcff;
+    height: 40px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.sdCompMain .sdComp2{
+    /* border: 1px solid black; */
+    width: 80%;
+    /* height: ; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0px 20px;
+    gap: 20px;
+    background-color: #f1fcff;
+    height: 40px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.sdComp .compImg{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.sdComp p{
+    /* border: 1px solid black; */
+    font-weight: 600;
+    /* font-size: 1rem; */
+}
