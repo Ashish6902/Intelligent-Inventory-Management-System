@@ -19,9 +19,9 @@
 }
 
 .logoName .logo{
-    border: 1px solid black;
-    width: 30px;
-    height: 30px;
+    /* border: 1px solid black;  */
+    width: 100%;
+    /* height: 30px; */
 }
 
 .logoName p{
@@ -105,7 +105,7 @@
 }
 
 .sdComp .compImg{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 20px;
     height: 20px;
 }
