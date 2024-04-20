@@ -4,7 +4,7 @@
 
 .hmRgt{
     /* border: 1px solid black; */
-    width: 88%;
+    width: 85%;
     background-color: rgb(247, 247, 247);
 }
 
@@ -41,7 +41,7 @@
 }
 
 .nvcImg{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: 20px;
     height: 20px;
 }
